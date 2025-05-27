@@ -3,8 +3,8 @@ Exemplo de API REST criada com o .NET 9 + ASP.NET Core e utilizando Distributed 
 
 Aplicações que consomem este projeto:
 - [**Saudações (Node.js)**](https://github.com/renatogroffe/nodejs-otel-jaeger_apisaudacoes)
-- [**Consumer das APIs (Java + Spring + Apache Camel)**](https://github.com/renatogroffe/nodejs-otel-jaeger_apisaudacoes)
+- [**Consumer das APIs (Java + Spring + Apache Camel)**](https://github.com/renatogroffe/java-spring-camel-otel-grafana-alloy-postgres-mysql_consumoapis)
 
-Visualizando no Grafana os traces gerados durante os testes:
+Visualizando no Grafana os traces gerados durante os testes, com uma interação entre as 3 aplicações aqui mencionadas:
 
 ![Traces no Grafana](img/grafana-alloy-trace.png)
